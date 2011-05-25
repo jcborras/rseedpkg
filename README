@@ -1,0 +1,6 @@
+rseedpkg
+
+A minimal R package directory structure which provides:
+
+ - quick deployment of R package skeleton trees that can be built
+ - TDD oriented development
