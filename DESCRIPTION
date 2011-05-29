@@ -2,7 +2,7 @@ Package: rseedpkg
 Type: Package
 Encoding: UTF-8
 Title: A minimal R package directory structure 
-Version: 0.01-0
+Version: 0.01-1
 Date: Sun May 29 13:10:27 EEST 2011
 Author: Juan Carlos Borrás
 Maintainer: Juan Carlos Borrás <jcborras@gmail.com>
