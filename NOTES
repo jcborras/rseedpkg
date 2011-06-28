@@ -1,0 +1,26 @@
+
+In DESCRIPTION:
+
+  - Add a package in the "Depends" section if you want all that pkg
+    exported functions to be visible after loading your pkg.
+
+      * Since it is handy to call test_package() after installation of
+        a new pkg it makes sense to add "testthat" to the list of
+        package dependencies
+ 
+  - Add a package in the "Imports" section if you want just some of
+    those functions to be visible _only_ within the code of the
+    functions you are exporting or using to implement the pkg
+    functionality
+
+      * log4r::debug() is called within rseedpkg::f1() and
+        rseedpkg::f2(), hence there is no need to import the whole
+        log4r pkg. Obviouly you'll also need log4r::create.logger()
+        but we can go around that by making rseedpkg provide a wrapper
+        for that.
+
+
+In NAMESPACE:
+
+  - Detail functions you import from other packages and functions in
+    this pkg that you are exporting.

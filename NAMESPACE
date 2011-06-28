@@ -1,3 +1,7 @@
+importFrom(log4r,create.logger)
+importFrom(log4r,debug)
 
 export(f1)
 export(f2)
+
+  

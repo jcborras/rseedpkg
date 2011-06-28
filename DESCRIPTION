@@ -1,15 +1,16 @@
 Package: rseedpkg
 Type: Package
 Encoding: UTF-8
-Title: A minimal R package directory structure 
-Version: 0.01-1
-Date: Sun May 29 13:10:27 EEST 2011
+Title: A minimal R package directory structure
+Version: 0.01-7
+Date: Tue Jun 28 23:28:48 EEST 2011
 Author: Juan Carlos Borrás
 Maintainer: Juan Carlos Borrás <jcborras@gmail.com>
 Description: A minimal R package directory structure that provides a
   source code tree skeleton from which packages can be built and
   supports Test Driven Development
-Depends: R (>= 2.11.0), methods, stats, testthat, log4r
+Depends: R (>= 2.11.0), devtools, methods, testthat
+Imports: log4r
 License: GPL-3
 LazyLoad: yes
 URL: http://github.com/jcborras/rseedpkg
