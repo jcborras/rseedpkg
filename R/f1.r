@@ -1,4 +1,5 @@
-
+#' @importFrom log4r debug
+#' @export
 f1 <- function(x, logger=debug.logger()) {
   debug(logger, paste("f1() input is:", x))
   y <- x+1
